@@ -1,4 +1,4 @@
 - name: Reset VM
   ansible.builtin.shell: 
   args:
-    cmd: virsh snapshot -revert [domain] [snapshot_name]
+    cmd: virsh snapshot -revert AWX_controlled Clean
