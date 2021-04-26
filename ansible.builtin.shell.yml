@@ -1,0 +1,3 @@
+- name: Reset VM
+  ansible.builtin.shell: 
+  cmd: virsh snapshot -revert [domain] [snapshot_name]
